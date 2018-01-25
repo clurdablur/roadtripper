@@ -17,7 +17,7 @@ var commentRoutes    = require("./routes/comments"),
     indexRoutes       = require("./routes/index") 
 
 
-mongoose.connect("mongodb://localhost/yelp_camp");
+mongoose.connect("mongodb://localhost/roadtripper");
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('port', process.env.PORT || 3000);
 app.set("view engine", "ejs");

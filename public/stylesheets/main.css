@@ -10,8 +10,27 @@
     display: inline;
 }
 
+.caption-pics a {
+    padding-left: 10px;
+    color: black;
+}
+
+.caption-pics a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.location {
+   padding-left: 10px;
+    color: #a1a1a1;
+}
+
 /* Google Maps */
 #map {
     height: 400px;
     width: 100%;
+}
+
+.thumbnail-pics img {
+    height: 300px;
 }
